@@ -8,7 +8,9 @@ print (a)
 a = 93 ** 125
 print(a)
 
+
 #ejercicios True or False
+print("--------------------")
 #1
 a = (3>2) or (5<1)
 print(a)
@@ -21,6 +23,7 @@ not (a)
 print(a)
 
 #ejercicios operaciones de números complejos
+print("--------------------")
 a = 3 + 8j
 b = 5 + 3j
 
@@ -38,6 +41,7 @@ print(f'a / b = {cociente}')
 
 
 #ejercicios de ciclos
+print("--------------------")
 #1
 for i in range(10):
     print(i, "--")
@@ -53,6 +57,7 @@ for i in range(10,1,-1):
     print(i, "..")
 
 #ejercicios de cual es mayor
+print("--------------------")
 #1
 a = 3
 b = 5
@@ -69,13 +74,3 @@ if(a>b):
 else:
     print("a no es mayor")
 
-#ejercicio while
-"""n = 7
-r = 0
-error = 1
-delta = 1
-
-    while error > 0.0001:
-        if r * r > n:
-            r = r - delta
-            delta = delta/10"""
