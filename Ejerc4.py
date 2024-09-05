@@ -89,3 +89,24 @@ def cifra_cesar(cad,llave):
         else:
             cad_cifrada = cad_cifrada + letra
     return cad_cifrada
+
+
+alfabeto = 'abcdefghijklmnñopqrstuvwxyz'
+len(alfabeto)
+26
+cad = "hola"
+alfabeto[10]
+alfabeto.index('h')
+pos = alfabeto.index('h')
+pos
+llave = 3
+alfabeto[pos + llave]
+
+def cifra_cesar1(cad, llave):
+    alfabeto = 'abcdefghijklmnñopqrstuvwxyz'
+    cifrada = ""
+    for c in cad:
+        pos = alfabeto.index(c)
+        cifrada = cifrada + alfabeto[pos + llave]
+
+print(cifra_cesar1("yo", 3))
