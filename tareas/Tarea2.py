@@ -1,4 +1,4 @@
-# Tarea 2, Christian Gael Lara Martinez
+# Tarea 2, Christian Gael Lara Martinez, 1507
 def cargar_palabras():
     with open('words.txt', 'r') as archivo:
         contenido = archivo.readline()
