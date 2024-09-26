@@ -1,4 +1,4 @@
-# Programa piedra-papel-tijeras septiembre 2024
+#Christian Gael Lara Martinez 25/09/2024
 import random
 print("Programa piedra-papel-tijeras")
 print("papel = 0")
