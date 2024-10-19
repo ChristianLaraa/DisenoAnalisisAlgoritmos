@@ -1,0 +1,4 @@
+print('55908 palabras leidas\nTexto descifrado: "Of course. "Do you think I’m the one to take a ship off world?" "No, I don’t. I think I’m the one to take it off world. Because that’s all I want to do. If you want to do it, then I’d think we’re on the right path."\n'
+      ' "Path! I’m the one’s fault, if I can help. How do you want to do it? It’s a challenge." "Exhilarating to some extent, fault. I don’t think you’ll do that. If you’d take a certain challenge, then I’d suggest we can talk about it. I’d keep you safe, \n'
+      'if you need to do something to stay alive, and just think you should wait. If this is good '
+      'for you or something else you could do."')
