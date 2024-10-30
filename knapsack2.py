@@ -26,12 +26,12 @@ def evalua(num, arregloCosas, restriccion):
         if l == "1":
             ganancia += arregloCosas[pos].precio
             peso += arregloCosas[pos].peso
-        pos+=1    
-    if peso > restriccion:    
+        pos+=1
+    if peso > restriccion:
         return -1
     else:
         return ganancia
-    
+
 def imprimeCombinacion(num):
     pos=0
     ganancia=0
@@ -42,7 +42,7 @@ def imprimeCombinacion(num):
     cad = cad.replace(" ","0")
     print()
     print ("           La mejor combinacion es   ")
-    print ("objeto  Precio    peso")    
+    print ("objeto  Precio    peso")
     for l in cad:
         if l == "1":
             texto =arregloCosas[pos].nombre + "    "
@@ -54,8 +54,8 @@ def imprimeCombinacion(num):
         pos+=1
     print ()
     print ("Ganancia total: "+ str(ganancia)+ "  Peso total: "+str(peso))
-    
-arregloCosas=[]        
+
+arregloCosas=[]
 
 arregloCosas.append(Cosas('cuaderno',20,2,0))
 arregloCosas.append(Cosas('libro',10,1,0))
@@ -87,8 +87,8 @@ arregloCosas.append(Cosas('VAJILLA',160,4,0))
 arregloCosas.append(Cosas('Los relojes Blandos. Dalí',250,6,0))
 arregloCosas.append(Cosas('Calendario Maya',456,9,0))
 arregloCosas.append(Cosas('DVD',110,2,0))
-#arregloCosas.append(Cosas('Busto Platón',300,10,0))
-##arregloCosas.append(Cosas('Adorno',70,3,0))
+arregloCosas.append(Cosas('Busto Platón',300,10,0))
+arregloCosas.append(Cosas('Adorno',70,3,0))
 
 
 ## Esta parte corresponde a la búsqueda exhaustiva
@@ -97,7 +97,7 @@ print ("Probando con búsqueda exahustiva")
 maximo = 0
 mejorCombina = 0
 for c in range(pow(2,len(arregloCosas))):
-    obtenido = evalua (c, arregloCosas, 20)    
+    obtenido = evalua (c, arregloCosas, 20)
     if obtenido > maximo:
         maximo = obtenido
         mejorCombina = c
@@ -106,9 +106,9 @@ fin = time.time()
 tiempo = fin-inicio
 print("tiempo requerido = ", tiempo, " segundos")
 ## Fin de la búsqueda exhaustiva
-      
 
 
-    
+
+
 
 
