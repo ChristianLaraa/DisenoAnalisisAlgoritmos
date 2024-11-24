@@ -34,7 +34,7 @@ def mostrar_grafico(frecuencias):
     letras = [item[0] for item in frecuencias]
     cantidad = [item[1] for item in frecuencias]
 
-    plt.bar(letras, cantidad, color='blue')
+    plt.bar(letras, cantidad, color='red')
     plt.xlabel('Letras')
     plt.ylabel('Frecuencia')
     plt.title('Frecuencia de letras en el texto cifrado')
